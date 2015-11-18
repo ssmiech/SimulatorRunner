@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180058CA1BB541F500CAAECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180058C91BB541F500CAAECF /* main.m */; };
+		180058E01BB547FF00CAAECF /* FBSimulatorControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180058DD1BB547EB00CAAECF /* FBSimulatorControl.framework */; };
+		180058E11BB547FF00CAAECF /* FBSimulatorControl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 180058DD1BB547EB00CAAECF /* FBSimulatorControl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		180058E21BB547FF00CAAECF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				180058E11BB547FF00CAAECF /* FBSimulatorControl.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		180058C21BB541F500CAAECF /* SimulatorRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulatorRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180058C91BB541F500CAAECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180058D01BB541F500CAAECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180058DD1BB547EB00CAAECF /* FBSimulatorControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSimulatorControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180058BF1BB541F500CAAECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180058E01BB547FF00CAAECF /* FBSimulatorControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180058B91BB541F500CAAECF = {
+			isa = PBXGroup;
+			children = (
+				180058D81BB5427100CAAECF /* Frameworks */,
+				180058C41BB541F500CAAECF /* SimulatorRunner */,
+				180058C31BB541F500CAAECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180058C31BB541F500CAAECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180058C21BB541F500CAAECF /* SimulatorRunner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180058C41BB541F500CAAECF /* SimulatorRunner */ = {
+			isa = PBXGroup;
+			children = (
+				180058D01BB541F500CAAECF /* Info.plist */,
+				180058C81BB541F500CAAECF /* Supporting Files */,
+			);
+			path = SimulatorRunner;
+			sourceTree = "<group>";
+		};
+		180058C81BB541F500CAAECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180058C91BB541F500CAAECF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180058D81BB5427100CAAECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180058DD1BB547EB00CAAECF /* FBSimulatorControl.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180058C11BB541F500CAAECF /* SimulatorRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180058D31BB541F500CAAECF /* Build configuration list for PBXNativeTarget "SimulatorRunner" */;
+			buildPhases = (
+				180058BE1BB541F500CAAECF /* Sources */,
+				180058BF1BB541F500CAAECF /* Frameworks */,
+				180058C01BB541F500CAAECF /* Resources */,
+				180058E21BB547FF00CAAECF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimulatorRunner;
+			productName = SimulatorRunner;
+			productReference = 180058C21BB541F500CAAECF /* SimulatorRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180058BA1BB541F500CAAECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = SoundCloud;
+				TargetAttributes = {
+					180058C11BB541F500CAAECF = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 180058BD1BB541F500CAAECF /* Build configuration list for PBXProject "SimulatorRunner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180058B91BB541F500CAAECF;
+			productRefGroup = 180058C31BB541F500CAAECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180058C11BB541F500CAAECF /* SimulatorRunner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180058C01BB541F500CAAECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180058BE1BB541F500CAAECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180058CA1BB541F500CAAECF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		180058D11BB541F500CAAECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		180058D21BB541F500CAAECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		180058D41BB541F500CAAECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_LIBRARY_DIR)/PrivateFrameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(OTHER_FRAMEWORKS_DIR)",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+					"$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+				INFOPLIST_FILE = SimulatorRunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-rpath",
+					$DEVELOPER_LIBRARY_DIR/Frameworks,
+					"-rpath",
+					$DEVELOPER_LIBRARY_DIR/PrivateFrameworks,
+					"-rpath",
+					$SDKROOT/System/Library/PrivateFrameworks,
+					"-rpath",
+					$DEVELOPER_DIR/../SharedFrameworks,
+					"-rpath",
+					$DEVELOPER_DIR/../Frameworks,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimulatorRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		180058D51BB541F500CAAECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_LIBRARY_DIR)/PrivateFrameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Frameworks",
+					"$(OTHER_FRAMEWORKS_DIR)",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+					"$(DEVELOPER_DIR)/../SharedFrameworks",
+				);
+				INFOPLIST_FILE = SimulatorRunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-rpath",
+					$DEVELOPER_LIBRARY_DIR/Frameworks,
+					"-rpath",
+					$DEVELOPER_LIBRARY_DIR/PrivateFrameworks,
+					"-rpath",
+					$SDKROOT/System/Library/PrivateFrameworks,
+					"-rpath",
+					$DEVELOPER_DIR/../SharedFrameworks,
+					"-rpath",
+					$DEVELOPER_DIR/../Frameworks,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SimulatorRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180058BD1BB541F500CAAECF /* Build configuration list for PBXProject "SimulatorRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180058D11BB541F500CAAECF /* Debug */,
+				180058D21BB541F500CAAECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180058D31BB541F500CAAECF /* Build configuration list for PBXNativeTarget "SimulatorRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180058D41BB541F500CAAECF /* Debug */,
+				180058D51BB541F500CAAECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180058BA1BB541F500CAAECF /* Project object */;
+}
